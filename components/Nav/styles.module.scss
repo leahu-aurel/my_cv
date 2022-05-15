@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  padding: 34px 22px;
+  background-color: #f2f5f7;
+  transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+  &.scrolled {
+    background-color: white;
+    box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
+  }
+
+  .link {
+    font-size: 14px;
+    color: #565594;
+  }
+  .mainLink {
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+  }
+  .secondaryLink {
+    margin-left: 50px;
+  }
+}
