@@ -5,7 +5,7 @@ import mainImage from "assets/aurel.jpeg";
 import styles from "./styles.module.scss";
 const Main = () => {
   return (
-    <main className={styles.main}>
+    <main id="main" className={styles.main}>
       <div className={styles.text}>
         <div className={styles.firstContainer}>
           <p className={styles.title}>Hi, I am Aurel, a UI developer</p>

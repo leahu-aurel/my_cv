@@ -12,7 +12,7 @@ const Background = () => {
 
   return (
     <>
-      <section className={styles.background}>
+      <section id="background" className={styles.background}>
         <div className={styles.info}>
           <p className={styles.title}>― MY BACKGROUND</p>
           <span className={styles.message}>

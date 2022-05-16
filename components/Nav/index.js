@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import Link from "next/link";
 
 import styles from "./styles.module.scss";
 import { useWindowScroll } from "./useWindowScroll";
@@ -9,12 +10,26 @@ const Nav = () => {
 
   return (
     <nav className={navClassNames}>
-      <a className={classNames(styles.link, styles.mainLink)}>AUREL</a>
-      <a className={classNames(styles.link, styles.secondaryLink)}>ABOUT ME</a>
-      <a className={classNames(styles.link, styles.secondaryLink)}>
-        EXPERIENCE
-      </a>
-      <a className={classNames(styles.link, styles.secondaryLink)}>CONTACTS</a>
+      <Link href="#main">
+        <a className={classNames(styles.link, styles.mainLink)}>AUREL</a>
+      </Link>
+      <Link href="#background">
+        <a className={classNames(styles.link, styles.secondaryLink)}>
+          ABOUT ME
+        </a>
+      </Link>
+
+      <Link href="#experience">
+        <a className={classNames(styles.link, styles.secondaryLink)}>
+          EXPERIENCE
+        </a>
+      </Link>
+
+      <Link href="#contacts">
+        <a className={classNames(styles.link, styles.secondaryLink)}>
+          CONTACTS
+        </a>
+      </Link>
     </nav>
   );
 };
