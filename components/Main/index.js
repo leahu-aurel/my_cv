@@ -18,7 +18,12 @@ const Main = () => {
         </div>
       </div>
       <div className={styles.image}>
-        <Image layout="responsive" objectFit="cover" src={mainImage} />
+        <Image
+          layout="responsive"
+          objectFit="cover"
+          quality={100}
+          src={mainImage}
+        />
       </div>
     </main>
   );

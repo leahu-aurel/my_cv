@@ -1,0 +1,47 @@
+
+.background {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px 100px 60px;
+
+  .title {
+    color: #7B88A8;
+    letter-spacing: 1px;
+  }
+
+  .info {
+    width: 60%;
+    line-height: 30px;
+  }
+
+  .message {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    color: #191D26;
+    font-size: 20px;
+  }
+
+  .skill {
+    margin: 12px 0;
+  };
+}
+
+.images {
+  display: flex;
+  height: 650px;
+  justify-content: space-between;
+
+  .image {
+    border-radius: 13px;
+    position: relative;
+    height: 600px;
+    width: 38%;
+    overflow: hidden;
+
+    &.sidePhoto {
+      width: 28%
+    }
+  }
+
+}
