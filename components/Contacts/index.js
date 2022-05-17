@@ -37,6 +37,7 @@ function Contacts() {
           <br />
         </a>
         <a
+          rel="noopener noreferrer"
           target="_blank"
           href="mailto:leahuworld@gmail.com"
           className={styles.link}

@@ -16,10 +16,11 @@ const Background = () => {
         <div className={styles.info}>
           <p className={styles.title}>― MY BACKGROUND</p>
           <span className={styles.message}>
-            I've started my IT career as a Python Backend and Scripting
+            I&apos;ve started my IT career as a Python Backend and Scripting
             developer. After a while I discovered for myself the beauty of
-            frontend. Now I'm in love with one of its most beautiful creations,
-            React. Now I'm on my way to become an expert in this area.
+            frontend. Now I&apos;m in love with one of its most beautiful
+            creations, React. Now I&apos;m on my way to become an expert in this
+            area.
           </span>
         </div>
         <div className={styles.skills}>
@@ -37,6 +38,7 @@ const Background = () => {
             layout="fill"
             objectFit="cover"
             src={aurel1}
+            alt="Image with my beautiful face"
           ></Image>
         </div>
         <div className={styles.image}>
@@ -45,6 +47,7 @@ const Background = () => {
             quality={100}
             objectFit="cover"
             src={aurel}
+            alt="Image with my beautiful face"
           ></Image>
         </div>
         <div className={classNames(styles.image, styles.sidePhoto)}>
@@ -53,6 +56,7 @@ const Background = () => {
             quality={100}
             objectFit="cover"
             src={aurel2}
+            alt="Image with my beautiful face"
           ></Image>
         </div>
       </section>

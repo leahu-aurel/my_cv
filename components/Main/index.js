@@ -10,6 +10,7 @@ const Main = () => {
         <div className={styles.firstContainer}>
           <p className={styles.title}>Hi, I am Aurel, a UI developer</p>
           <a
+            rel="noopener noreferrer"
             target="_blank"
             href="mailto:leahuworld@gmail.com"
             className={styles.button}
@@ -52,6 +53,7 @@ const Main = () => {
           objectFit="cover"
           quality={100}
           src={mainImage}
+          alt="Image with my beautiful face"
         />
       </div>
     </main>
