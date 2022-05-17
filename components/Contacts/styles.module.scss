@@ -1,0 +1,32 @@
+.contacts {
+  display: flex;
+  gap: 50px;
+  background-color: #474679;
+  padding: 140px 240px 140px 60px;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+
+  .name {
+    flex: 1;
+    align-self: center;
+    font-size: 32px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 10;
+
+    .title {
+      font-size: 15px;
+      letter-spacing: 3px;
+    }
+    .link {
+      font-size: 18px;
+      text-decoration: underline;
+      padding: 3px 0;
+    }
+  }
+
+
+}

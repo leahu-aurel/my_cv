@@ -9,12 +9,41 @@ const Main = () => {
       <div className={styles.text}>
         <div className={styles.firstContainer}>
           <p className={styles.title}>Hi, I am Aurel, a UI developer</p>
-          <a className={styles.button}>Email me</a>
+          <a
+            target="_blank"
+            href="mailto:leahuworld@gmail.com"
+            className={styles.button}
+          >
+            Email me
+          </a>
         </div>
         <div>
-          <a className={styles.link}>Linkedin</a> /{" "}
-          <a className={styles.link}>Facebook</a> /{" "}
-          <a className={styles.link}>Twitter</a>
+          <a
+            className={styles.link}
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/aurel-leahu-706ba0174"
+          >
+            Linkedin
+          </a>{" "}
+          /{" "}
+          <a
+            className={styles.link}
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.facebook.com/leahuaurel"
+          >
+            Facebook
+          </a>{" "}
+          /{" "}
+          <a
+            className={styles.link}
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/leahu-aurel"
+          >
+            Github
+          </a>
         </div>
       </div>
       <div className={styles.image}>
